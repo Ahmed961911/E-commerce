@@ -20,7 +20,7 @@ let formik = useFormik ({
    
   },
   onSubmit:()=> 
-    handleCheckout(cartId,`http://localhost:5173`)
+    handleCheckout(cartId,`https://e-commerce-5sl9u5691-ahmed-mohameds-projects-ccf75c86.vercel.app/`)
 });
 
 async function handleCheckout(cartId,url){
